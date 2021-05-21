@@ -4,6 +4,12 @@
 @use "partials/profile";
 @use "partials/article";
 
+@use "partials/bookmarks";
+@use "partials/login";
+@use "partials/myarticles";
+@use "partials/newarticle";
+@use "partials/search";
+
 :root {
   /* ######################################### */
   /* ----------- VARIABLES ----------- */

@@ -3,3 +3,32 @@
 @use "partials/frontpage";
 @use "partials/profile";
 @use "partials/article";
+
+:root {
+  /* ######################################### */
+  /* ----------- VARIABLES ----------- */
+  /* ######################################### */
+
+  /* ------- COLORS ------- */
+  --primary: #f76820;
+  --secondary: #707070;
+  --tertiary: #dedede;
+  --menu: #383838;
+  --white: #ffffff;
+  --black: #000000;
+
+  /* ------- FONTS ------- */
+
+  --heading1: italic 400 2.4rem "Playfair Display", serif;
+  --heading2: 300 1.5rem "Open Sans", sans-serif;
+  --heading3: 300 1.2rem/2rem "Open Sans", sans-serif;
+  --menu-elements: 400 0.75rem "Open Sans", sans-serif;
+  --title: italic 400 1.8rem "Playfair Display", serif;
+  --paragraph: 300 0.9rem/1.2rem "Open Sans", sans-serif;
+  --button: italic 400 0.85rem "Playfair Display", serif;
+
+  /* ------- SHADOW ------- */
+
+  --lg-shadow: 1px 2px 3px rgba(0, 0, 0, 0.205);
+  --md-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+}

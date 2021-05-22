@@ -5,9 +5,464 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.500aa19d.css">
-    <title>Document</title>
-  <script src="/style.500aa19d.js"></script></head>
-  <body>
-    <h1>hello</h1>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+    <title>A U D I O R E - your online music magazine</title>
+  <script src="/style.500aa19d.js"></script><script src="/profile.js"></script></head>
+  <body class="frontpage">
+    <nav class="navigation">
+      <header>
+        <img src="/audiore.a5828bbb.png" alt="AUDIORE" class="shrink_title enlarge_title">
+      </header>
+
+      <div class="burger">
+        <img class="search bigger" src="/search.497e57ae.svg">
+        <img class="settings bigger" src="/settings_black_24dp.e8f92bfa.svg">
+        <a href="/login.html"><img class="profile_menu bigger" src="/profile.48c28b18.svg"></a>
+        <a href="/profile.html"><img class="profile_pic bigger" src="/niels-lille.3ff60741.png"></a>
+        <img class="burger_icon" src="/burger.fc435079.svg">
+      </div>
+
+      <div class="dropdown hide add_opacity">
+        <p>𝖷</p>
+        <ul>
+          <li class="menu_elements" data-name="latest">Latest</li>
+          <li class="menu_elements" data-name="trending">Trending</li>
+          <li class="menu_elements" data-name="features">Features</li>
+          <li class="menu_elements" data-name="album">Album reviews</li>
+          <li class="menu_elements" data-name="concert">Concert reviews</li>
+          <li class="menu_elements" data-name="genres">Genres</li>
+        </ul>
+      </div>
+      <div class="genres_menu hide">
+        <p>𝖷</p>
+        <ul>
+          <li class="menu_elements">Rock</li>
+          <li class="menu_elements">Pop</li>
+          <li class="menu_elements">Jazz</li>
+          <li class="menu_elements">Techno</li>
+          <li class="menu_elements">Classic</li>
+          <li class="menu_elements">Country</li>
+        </ul>
+        <div class="divider"></div>
+      </div>
+      <div class="menu">
+        <div></div>
+        <ul>
+          <li class="menu_elements" data-name="latest">Latest</li>
+          <li class="menu_elements" data-name="trending">Trending</li>
+          <li class="menu_elements" data-name="features">Features</li>
+          <li class="menu_elements" data-name="album">Album reviews</li>
+          <li class="menu_elements" data-name="concert">Concert reviews</li>
+          <li class="menu_elements" data-name="genres">Genres</li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <p class="breadcrumb">Home /</p>
+
+      <!-- FEATURED ARTICLES -->
+      <section class="featured_articles">
+        <article class="img_grid">
+          <div class="overlay feat top">
+            <h1>Article of the week</h1>
+            <p class="article_title">The day rock'n'roll died</p>
+            <p class="preview">
+              Like many artists during the coronavirus pandemic, Incubus have been making the most of their time in
+              lockdown. They’ve released a new EP, ‘Trust Fall (Side B)’, reworked their 2004 song ‘Agoraphobia’ for the
+              quarantine era, and frontman Brandon Boyd says he’s written enough material to put out a new solo album.
+            </p>
+
+            <button class="primary" onclick="window.location.href='article.html';">Read</button>
+          </div>
+          <div class="image"></div>
+        </article>
+        <article class="img_grid">
+          <div class="overlay">
+            <p class="article_title">This is a title, this is a title, this is a title, this is a title</p>
+            <p class="preview">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum.
+            </p>
+            <button class="primary">Read</button>
+          </div>
+          <div class="image"></div>
+        </article>
+      </section>
+
+      <!-- LATEST -->
+      <section class="devider">
+        <div class="devider_line"></div>
+        <h1 class="devider_text" id="latest">LATEST</h1>
+        <div class="devider_line"></div>
+      </section>
+
+      <section class="latest three_col">
+        <article class="img_grid">
+          <div class="overlay">
+            <p class="article_title">This is a title</p>
+            <p class="preview">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum.
+            </p>
+            <button class="primary">Read</button>
+          </div>
+          <div class="image"></div>
+        </article>
+        <article class="img_grid">
+          <div class="overlay">
+            <p class="article_title">This is a title</p>
+            <p class="preview">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum.
+            </p>
+            <button class="primary">Read</button>
+          </div>
+          <div class="image"></div>
+        </article>
+        <article class="img_grid">
+          <div class="overlay">
+            <p class="article_title">This is a title</p>
+            <p class="preview">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+              mollit anim id est laborum.
+            </p>
+            <button class="primary">Read</button>
+          </div>
+          <div class="image"></div>
+          <p class="all">SEE ALL LATEST <span>></span></p>
+        </article>
+      </section>
+
+      <!-- TRENDING -->
+      <section class="devider">
+        <div class="devider_line"></div>
+        <h1 class="devider_text" id="trending">TRENDING</h1>
+        <div class="devider_line"></div>
+      </section>
+
+      <section class="section_grid trending">
+        <div class="crooked_bg"></div>
+        <article class="articles_wrapper">
+          <div class="feature_wrapper left">
+            <article class="featured">
+              <div class="img_grid">
+                <div class="overlay feat">
+                  <h1>Article of the day</h1>
+                  <button class="primary">Read</button>
+                </div>
+                <div class="image"></div>
+              </div>
+
+              <p class="article_title">This is a title</p>
+              <p class="preview">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+              </p>
+            </article>
+          </div>
+
+          <section class="trending three_col">
+            <article class="img_grid">
+              <div class="overlay">
+                <p class="article_title">This is a title</p>
+                <p class="preview">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                  officia deserunt mollit anim id est laborum.
+                </p>
+                <button class="primary">Read</button>
+              </div>
+              <div class="image"></div>
+            </article>
+            <article class="img_grid">
+              <div class="overlay">
+                <p class="article_title">This is a title</p>
+                <p class="preview">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                  officia deserunt mollit anim id est laborum.
+                </p>
+                <button class="primary">Read</button>
+              </div>
+              <div class="image"></div>
+            </article>
+            <article class="img_grid">
+              <div class="overlay">
+                <p class="article_title">This is a title</p>
+                <p class="preview">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                  officia deserunt mollit anim id est laborum.
+                </p>
+                <button class="primary">Read</button>
+              </div>
+              <div class="image"></div>
+              <p class="white all">SEE ALL TRENDING <span>></span></p>
+            </article>
+          </section>
+        </article>
+      </section>
+
+      <!-- FEATURES -->
+
+      <section class="devider white">
+        <div class="devider_line"></div>
+        <h1 class="devider_text" id="features">FEATURES</h1>
+        <div class="devider_line"></div>
+      </section>
+
+      <section class="section_grid features">
+        <article class="articles_wrapper">
+          <div class="feature_wrapper right">
+            <article class="featured no_bg">
+              <div class="img_grid">
+                <div class="overlay feat">
+                  <h1>Feature of the day</h1>
+                  <button class="primary">Read</button>
+                </div>
+                <div class="image"></div>
+              </div>
+
+              <p class="article_title">This is a title</p>
+              <p class="preview">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+              </p>
+            </article>
+          </div>
+
+          <section class="feature three_col">
+            <article class="img_grid">
+              <div class="overlay">
+                <p class="article_title">This is a title</p>
+                <p class="preview">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                  officia deserunt mollit anim id est laborum.
+                </p>
+                <button class="primary">Read</button>
+              </div>
+              <div class="image"></div>
+            </article>
+            <article class="img_grid">
+              <div class="overlay">
+                <p class="article_title">This is a title</p>
+                <p class="preview">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                  officia deserunt mollit anim id est laborum.
+                </p>
+                <button class="primary">Read</button>
+              </div>
+              <div class="image"></div>
+            </article>
+            <article class="img_grid">
+              <div class="overlay">
+                <p class="article_title">This is a title</p>
+                <p class="preview">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                  officia deserunt mollit anim id est laborum.
+                </p>
+                <button class="primary">Read</button>
+              </div>
+              <div class="image"></div>
+              <p class="all">SEE ALL FEATURES <span>></span></p>
+            </article>
+          </section>
+        </article>
+      </section>
+
+      <!-- ALBUM REVIEWS -->
+      <section class="devider">
+        <div class="devider_line"></div>
+        <h1 class="devider_text" id="album">ALBUM REVIEWS</h1>
+        <div class="devider_line"></div>
+      </section>
+
+      <section class="section_grid album">
+        <div class="crooked_bg"></div>
+        <article class="articles_wrapper">
+          <div class="feature_wrapper left">
+            <article class="featured">
+              <div class="img_grid">
+                <div class="overlay feat">
+                  <h1>Album of the day</h1>
+                  <button class="primary">Read</button>
+                </div>
+                <div class="image"></div>
+              </div>
+
+              <p class="article_title">This is a title</p>
+              <p class="preview">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+              </p>
+            </article>
+          </div>
+
+          <section class="album three_col">
+            <article class="img_grid">
+              <div class="overlay">
+                <p class="article_title">This is a title</p>
+                <p class="preview">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                  officia deserunt mollit anim id est laborum.
+                </p>
+                <button class="primary">Read</button>
+              </div>
+              <div class="image"></div>
+            </article>
+            <article class="img_grid">
+              <div class="overlay">
+                <p class="article_title">This is a title</p>
+                <p class="preview">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                  officia deserunt mollit anim id est laborum.
+                </p>
+                <button class="primary">Read</button>
+              </div>
+              <div class="image"></div>
+            </article>
+            <article class="img_grid">
+              <div class="overlay">
+                <p class="article_title">This is a title</p>
+                <p class="preview">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                  officia deserunt mollit anim id est laborum.
+                </p>
+                <button class="primary">Read</button>
+              </div>
+              <div class="image"></div>
+              <p class="white all">SEE ALL ALBUM REVIEWS <span>></span></p>
+            </article>
+          </section>
+        </article>
+      </section>
+
+      <!-- CONCERTS -->
+
+      <section class="devider white">
+        <div class="devider_line"></div>
+        <h1 class="devider_text" id="concert">CONCERT REVIEWS</h1>
+        <div class="devider_line"></div>
+      </section>
+
+      <section class="section_grid concerts">
+        <article class="articles_wrapper">
+          <div class="feature_wrapper right">
+            <article class="featured no_bg">
+              <div class="img_grid">
+                <div class="overlay feat">
+                  <h1>Concert of the day</h1>
+                  <button class="primary">Read</button>
+                </div>
+                <div class="image"></div>
+              </div>
+
+              <p class="article_title">This is a title</p>
+              <p class="preview">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum.
+              </p>
+            </article>
+          </div>
+
+          <section class="concert three_col">
+            <article class="img_grid">
+              <div class="overlay">
+                <p class="article_title">This is a title</p>
+                <p class="preview">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                  officia deserunt mollit anim id est laborum.
+                </p>
+                <button class="primary">Read</button>
+              </div>
+              <div class="image"></div>
+            </article>
+            <article class="img_grid">
+              <div class="overlay">
+                <p class="article_title">This is a title</p>
+                <p class="preview">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                  officia deserunt mollit anim id est laborum.
+                </p>
+                <button class="primary">Read</button>
+              </div>
+              <div class="image"></div>
+            </article>
+            <article class="img_grid">
+              <div class="overlay">
+                <p class="article_title">This is a title</p>
+                <p class="preview">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                  officia deserunt mollit anim id est laborum.
+                </p>
+                <button class="primary">Read</button>
+              </div>
+              <div class="image"></div>
+              <p class="all">SEE ALL CONCERT REVIEWS <span>></span></p>
+            </article>
+            <p class="top all">TO TOP <span> ^</span></p>
+          </section>
+        </article>
+      </section>
+    </main>
+
+    <script src="/lisa_script.08c1dfaf.js"></script>
   </body>
 </html>

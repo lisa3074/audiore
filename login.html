@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sass/style.scss" />
+    <title>A U D I O R E - your online music magazine</title>
+  </head>
+  <body class="login">
+    <main>
+      <section class="login_wrapper">
+        <article class="login">
+          <p class="article_title">Login</p>
+          <p>Connect with music lovers around the globe!</p>
+          <form onsubmit="return false" class="login_form">
+            <label for="email"
+              >Email
+
+              <input type="text" id="email" placeholder="Email" />
+            </label>
+            <label for="password"
+              >Password
+              <input id="password" type="text" placeholder="password" />
+            </label>
+            <div class="button_wrapper">
+              <p class="orange">Forgot your login?</p>
+
+              <button class="login_button primary" onclick="window.location.href='/logged_in_frontpage.html';">
+                Login
+              </button>
+            </div>
+          </form>
+        </article>
+
+        <article class="community">
+          <div class="image"></div>
+          <div class="overlay">
+            <p class="article_title">Do you want to be a part of the</p>
+            <h1>community?</h1>
+          </div>
+        </article>
+        <article class="special">
+          <div class="image"></div>
+          <div class="overlay">
+            <p class="article_title">Be a part of something</p>
+            <h1>special!</h1>
+          </div>
+        </article>
+        <article class="signup">
+          <p class="article_title">Sign up</p>
+          <p>
+            Click here to sign up for an account. With an account you can bookmark your favorite articles, discuss them
+            with your fellow music enthusiastic friends and show your love for the articles you really like! Best of
+            all? It’s forever free!
+          </p>
+          <button class="primary signup_button">Sign up</button>
+        </article>
+      </section>
+
+      <section class="forgot hide">
+        <article>
+          <p class="close">✕</p>
+          <article class="forgot_wrapper">
+            <article class="password">
+              <p class="article_title">Forgot your password?</p>
+              <p>Type your email below and we will send it to you!</p>
+              <input type="text" placeholder="Email" />
+              <button class="primary">Send</button>
+            </article>
+            <div class="devider_wrapper">
+              <div class="devider"></div>
+              <h1>OR</h1>
+              <div class="devider"></div>
+            </div>
+            <article class="email">
+              <p class="article_title">Forgot your email?</p>
+              <p>Type your phone no. below and we wil text it to you!</p>
+              <input type="text" placeholder="Phone number" />
+              <button class="primary">Send</button>
+            </article>
+          </article>
+        </article>
+      </section>
+    </main>
+    <script src="lisa_script.js"></script>
+  </body>
+</html>

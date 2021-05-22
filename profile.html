@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="sass/style.scss" />
+    <title>A U D I O R E - your online music magazine</title>
+  </head>
+  <body class="profile_page">
+    <nav class="navigation">
+      <header>
+        <img src="/images/audiore.png" alt="AUDIORE" class="shrink_title enlarge_title" />
+      </header>
+
+      <div class="burger">
+        <img class="search bigger" src="images/svg/search.svg" />
+        <img class="settings bigger" src="images/svg/settings_black_24dp.svg" />
+        <a href="/login.html"><img class="profile_menu bigger" src="images/svg/profile.svg" /></a>
+        <a href="/profile.html"><img class="profile_pic bigger" src="images/niels-lille.png" /></a>
+        <img class="burger_icon" src="images/svg/burger.svg" />
+      </div>
+
+      <div class="dropdown hide add_opacity">
+        <p>𝖷</p>
+        <ul>
+          <li class="menu_elements" data-name="latest">Latest</li>
+          <li class="menu_elements" data-name="trending">Trending</li>
+          <li class="menu_elements" data-name="features">Features</li>
+          <li class="menu_elements" data-name="album">Album reviews</li>
+          <li class="menu_elements" data-name="concert">Concert reviews</li>
+          <li class="menu_elements" data-name="genres">Genres</li>
+        </ul>
+      </div>
+      <div class="genres_menu hide">
+        <p>𝖷</p>
+        <ul>
+          <li class="menu_elements">Rock</li>
+          <li class="menu_elements">Pop</li>
+          <li class="menu_elements">Jazz</li>
+          <li class="menu_elements">Techno</li>
+          <li class="menu_elements">Classic</li>
+          <li class="menu_elements">Country</li>
+        </ul>
+        <div class="divider"></div>
+      </div>
+      <div class="menu">
+        <div></div>
+        <ul>
+          <li class="menu_elements" data-name="latest">Latest</li>
+          <li class="menu_elements" data-name="trending">Trending</li>
+          <li class="menu_elements" data-name="features">Features</li>
+          <li class="menu_elements" data-name="album">Album reviews</li>
+          <li class="menu_elements" data-name="concert">Concert reviews</li>
+          <li class="menu_elements" data-name="genres">Genres</li>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <p>Home / <span class="breadcrumb">Profile</span></p>
+      <section class="profile_wrapper">
+        <section class="bookmarks_section">
+          <h1>Latest bookmarks</h1>
+          <article class="bookmark_header">
+            <p class="title">Title</p>
+            <p class="bookmark">Bookmarked</p>
+          </article>
+          <article class="bookmarks">
+            <div>
+              <p class="article_title">When the lights go out</p>
+              <p class="date">2021-04-04 14.39</p>
+            </div>
+            <div>
+              <p class="article_title">The day the music died</p>
+              <p class="date">2021-04-04 14.40</p>
+            </div>
+            <div>
+              <p class="article_title">Nobody knows the struggle of being me</p>
+              <p class="date">2021-03-31 11.12</p>
+            </div>
+            <div>
+              <p class="article_title">What Can Music Do During Climate Collapse?</p>
+              <p class="date">2021-03-31 11.15</p>
+            </div>
+            <p class="all">ALL BOOKMARKS <span>></span></p>
+          </article>
+        </section>
+        <section class="profile">
+          <div class="profile_picture">
+            <img class="edit" src="/images/svg/edit.svg" />
+          </div>
+          <article class="info">
+            <h1 class="name">Niels C. Koch</h1>
+            <svg class="edit_info" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+              <defs>
+                <style>
+                  .a {
+                    fill: none;
+                  }
+                  .b {
+                    fill: #f76820;
+                  }
+                </style>
+              </defs>
+              <path class="a" d="M0,0H24V24H0Z" />
+              <path
+                class="b"
+                d="M14.06,9.02l.92.92L5.92,19H5v-.92l9.06-9.06M17.66,3a1,1,0,0,0-.7.29L15.13,5.12l3.75,3.75,1.83-1.83a1,1,0,0,0,0-1.41L18.37,3.29A.982.982,0,0,0,17.66,3Zm-3.6,3.19L3,17.25V21H6.75L17.81,9.94,14.06,6.19Z"
+              />
+            </svg>
+            <p><span class="article_title">Email: </span>niels_c@gmail.com</p>
+            <p>
+              <span class="article_title">Phone</span>
+              +45 34 23 45 66
+            </p>
+          </article>
+        </section>
+      </section>
+    </main>
+    <script src="lisa_script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+.profile_page {
+  main {
+    padding: 1rem;
+
+    padding-bottom: 4rem;
+    height: 100vh;
+    overflow: scroll;
+    padding-top: 4rem;
+  }
+  main > p {
+    padding-bottom: 1rem;
+  }
+
+  .profile_wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+  }
+  .profile_picture {
+    background-image: url("/images/niels.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    padding: 1rem;
+  }
+
+  .edit {
+    width: 30px;
+    height: 30px;
+    background-color: var(--primary);
+    border-radius: 5px;
+    padding: 4px;
+  }
+  .edit_info,
+  .profile h1 {
+    display: inline-block;
+  }
+  .profile h1 {
+    padding-right: 1rem;
+  }
+  .bookmark_header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--black);
+    padding: 1rem 0 0.5rem;
+    margin-bottom: 1rem;
+    p {
+      font-weight: 700;
+      font-size: 0.75rem;
+    }
+  }
+  .article_title {
+    color: var(--primary);
+    font-size: 1.1rem;
+  }
+  .bookmarks .article_title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+
+  .bookmarks div {
+    display: grid;
+    grid-template-columns: 100fr 70fr;
+    padding-bottom: 1rem;
+    align-items: center;
+    .date {
+      justify-self: flex-end;
+    }
+  }
+
+  .name {
+    margin-bottom: 0.5rem;
+  }
+
+  .info p {
+    padding-top: 0.5rem;
+  }
+
+  .info {
+    padding-bottom: 2rem;
+  }
+  @media (min-width: 660px) {
+    main {
+      padding-top: 18vw;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    main {
+      padding-top: 11rem;
+    }
+    .profile_wrapper {
+      display: grid;
+      grid-template-columns: 2fr 3fr;
+      grid-template-rows: 1fr;
+      gap: 4rem;
+    }
+
+    .profile {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+    article.info > h1,
+    .bookmarks_section h1,
+    .profile .name {
+      margin-top: 1rem;
+    }
+  }
+}

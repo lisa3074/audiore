@@ -19,22 +19,120 @@
   --primary: #f76820;
   --secondary: #707070;
   --tertiary: #dedede;
+  --dark-grey: #383838;
   --menu: #383838;
   --white: #ffffff;
   --black: #000000;
 
   /* ------- FONTS ------- */
 
-  --heading1: italic 400 2.4rem "Playfair Display", serif;
+  --heading1: italic 400 1.8rem "Playfair Display", serif;
   --heading2: 300 1.5rem "Open Sans", sans-serif;
   --heading3: 300 1.2rem/2rem "Open Sans", sans-serif;
   --menu-elements: 400 0.75rem "Open Sans", sans-serif;
-  --title: italic 400 1.8rem "Playfair Display", serif;
+  --title: italic 400 1.3rem "Playfair Display", serif;
   --paragraph: 300 0.9rem/1.2rem "Open Sans", sans-serif;
-  --button: italic 400 0.85rem "Playfair Display", serif;
+  --button: italic 600 0.85rem "Playfair Display", serif;
 
   /* ------- SHADOW ------- */
 
+  --sm-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
   --lg-shadow: 1px 2px 3px rgba(0, 0, 0, 0.205);
   --md-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.profile_page,
+.article,
+.login_wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+p,
+label {
+  font: var(--paragraph);
+}
+
+h1 {
+  font: var(--heading1);
+}
+
+h2 {
+  font: var(--heading2);
+}
+h3 {
+  font: var(--heading3);
+}
+.menu_elements {
+  font: var(--menu-elements);
+}
+
+.article_title {
+  font: var(--title);
+}
+.breadcrumb {
+  color: var(--primary);
+}
+//BUTTONS
+
+button {
+  font: var(--button);
+  cursor: pointer;
+}
+
+.primary {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.secondary {
+  background-color: var(--secondary);
+  color: var(--tertiary);
+}
+
+.tertiary {
+  background-color: var(--tertiary);
+  color: var(--black);
+}
+
+button {
+  width: 4rem;
+  outline: none;
+  font: var(--button);
+  padding: 0.5rem 0.5rem;
+  border: 0;
+  border-radius: 5px;
+  box-shadow: var(--md-shadow);
+  &:hover {
+    transform: scale(1.04);
+    transition: 0.3s;
+  }
+}
+
+.all {
+  width: 100%;
+  text-align: right;
+  font-weight: 700;
+  font-size: 0.75rem;
+  padding-bottom: 2rem;
+  &.white {
+    color: var(--white);
+  }
+  span {
+    color: var(--primary);
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 500px) {
+  :root {
+    --heading1: italic 400 2.4rem "Playfair Display", serif;
+    --title: italic 400 1.8rem "Playfair Display", serif;
+  }
 }
